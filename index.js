@@ -67,3 +67,8 @@ console.log(copy10);
 //=====================
 const copy11 = Object.assign([], original);
 console.log(copy11);
+
+//11. filter()
+//===============
+const copy12 = original.filter(()=>true);
+console.log(copy12);
