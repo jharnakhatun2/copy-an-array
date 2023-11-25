@@ -56,3 +56,9 @@ console.log(copy8);
 //=================
 const copy9 = Array.of(...original);
 console.log(copy9);
+
+
+//9. JSON.parse & JSON.stringify
+//===============================
+const copy10 = JSON.parse(JSON.stringify(original));
+console.log(copy10);
