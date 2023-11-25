@@ -45,3 +45,9 @@ const copy7 = [].concat(original);
 console.log(copy5);
 console.log(copy6);
 console.log(copy7);
+
+
+//7. map()
+//========
+const copy8 = original.map((x)=> x);
+console.log(copy8);
