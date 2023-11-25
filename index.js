@@ -51,3 +51,8 @@ console.log(copy7);
 //========
 const copy8 = original.map((x)=> x);
 console.log(copy8);
+
+//8. Array.of()
+//=================
+const copy9 = Array.of(...original);
+console.log(copy9);
