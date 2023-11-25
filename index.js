@@ -72,3 +72,12 @@ console.log(copy11);
 //===============
 const copy12 = original.filter(()=>true);
 console.log(copy12);
+
+//12. reduce()
+//================
+const copy13 = original.reduce((newArray, element)=>{
+    newArray.push(element);
+    return newArray;
+},[]);
+
+console.log(copy13);
