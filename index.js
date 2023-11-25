@@ -36,3 +36,12 @@ console.log(copy3);
 //===================
 const copy4 = Array.from(original);
 console.log(copy4);
+
+//6. concat()
+//===============
+const copy5 = original.concat();
+const copy6 = original.concat([]);
+const copy7 = [].concat(original);
+console.log(copy5);
+console.log(copy6);
+console.log(copy7);
