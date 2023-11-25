@@ -62,3 +62,8 @@ console.log(copy9);
 //===============================
 const copy10 = JSON.parse(JSON.stringify(original));
 console.log(copy10);
+
+//10. Object.assign()
+//=====================
+const copy11 = Object.assign([], original);
+console.log(copy11);
